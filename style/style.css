@@ -8,20 +8,24 @@ body{
 }
 /* header section start */
 .header{
-    height: 120px;
     width: 1280px;
     margin: 0 auto;
     /* background-color: gray; */
 }
+.logo-nav{
+    display: flex;
+    align-items: center;
+    gap: 40%;
+    height: 120px;
+}
 .logo{
     padding-top: 40px;
     text-align: center;
-    font-size: 30px;
+    font-size: 26px;
 }
 .nav-bar{
     padding-left: 45px;
     padding-top:47px;
-    position: absolute;
 }
 .header-text{
     margin-top: 36px;
